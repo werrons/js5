@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+}
+img{
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    padding left: 3px;
+    wit
+}
+
+button {
+    margin-right: 10px;
+    padding: 8px;
+    cursor: pointer;
+    color: floralwhite;
+    background-color: slategray;
+    border-radius: 15px;
+    box-shadow: 9px 6px 21px 0px rgba(34, 60, 80, 0.46);
+    transition: 0.4s;
+
+}
+
+button:hover {
+    background-color: rgb(12, 58, 210);
+    color: blue fj transform: scale(1.1);
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    border: 2px solid;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: rgb(209, 169, 209);
+
+}
+
+p {
+    color: darkgoldenrod;
+    font-size: 18px;
+    font-weight: 900;
+}

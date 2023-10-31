@@ -1,0 +1,38 @@
+@media (max-width: 1279px) {
+    .hero-wrapper h1{
+        font-size: 38px;
+        width: 370;
+    }
+    
+    .container{
+        padding: 0 15px;
+        max-width: 1090px;
+    }
+
+    .hero-wrapper p{
+        width: 370px;
+    }
+    .hero-action{
+        gap: 10px;
+    }
+    .large-btn span:nth-child(2){
+        font-size: 24px;
+    }
+    .large-btn span:nth-child(1){
+        font-size: 18px;
+    }
+    .large-btn{
+        padding: 30px;
+    }
+    .box h4{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1023px) {
+    .hero-action img{
+        margin-top: unset;
+    }
+    .hero-action{
+        gap
+    }
+} 

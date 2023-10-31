@@ -1,0 +1,38 @@
+body{
+    background: url(./nature-3082832_1920.jpg);
+    height: 10px;
+}
+p{
+    font-size: 30px;
+    color: white;
+}
+h1{
+    color: white;
+}
+textarea{
+    border-radius: 10px;
+    background-color: rgb(138, 239, 125);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+input{
+    border-radius: 10px;
+    background-color: rgb(138, 239, 125);
+    margin-top: 15px;
+    margin-left: 20px;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+footer{
+    background: url(./Без\ названия.png);
+    width: 1511px;
+    height: 350px;
+    margin-right: 100px;
+
+}

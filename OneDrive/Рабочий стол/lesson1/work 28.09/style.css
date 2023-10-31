@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+}
+header{
+    padding: 0 20 px;
+}
+nav{
+    display: inline-block;
+    margin: 0 10px;
+}
+u{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+}
+li{
+    text-decoration: none;
+    display: inline-block
+}
+li a:not(:last-child) {
+    margin-right: 15px;
+}
+body{
+    background: url(./temnyi-fon-133.webp)
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+main{
+    padding: 2px 20px;
+}
+button{
+    cursor: pointer;
+    background-color: fuchsia;
+}
+footer{
+    padding: 20 px 40px;
+    color: blue;
+}
+footer input{
+    background-color: transparent;
+    padding: 8px 15px;
+    border-color: white;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+header button{
+    background-color: transparent;
+    border: 3px solid white;
+    font-size: 20px;
+    padding: 5px 30px 5px 5px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+footer a{
+    color: blue;
+}

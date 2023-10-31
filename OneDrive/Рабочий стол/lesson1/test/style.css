@@ -1,0 +1,14 @@
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.wrapper p{
+    width: 200px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper p:nth-child(2){
+    border: 2px solid red;
+}

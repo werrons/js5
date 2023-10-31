@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+body{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1168px;
+    margin: 0 auto;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon-btn{
+    border: unset;
+    background-color: transparent;
+}
+.icon-btn:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.header{
+    padding: 40px;
+}
+.text-btn{
+    padding: 8px 30px;
+    border: none;
+    background-color: transparent;
+    color: #156963;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contained-btn{
+    padding: 30px 30px;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #156963;
+    color: #fff;
+}
+.large-btn{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.large-btn span{
+    display:flex ;
+    align-items: center;
+    gap: 8px;
+}
+.large-btn span:nth-child(1){
+    font-size: 24px;
+    color: #333;
+}
+.large-btn span:nth-child(2){
+    font-size: 32px;
+    font-weight: 500;
+}
+.hero{
+    padding: 70px 0;
+}
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.hero-wrapper h1{
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    color: #156963;
+    width: 523px;
+    margin-bottom: 24px;
+}
+.hero-wrapper p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 523px;
+    line-height: normal;
+}
+.hero-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 70px;
+}
+.hero-action img{
+    margin-top: -426px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-2{
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.box h5{
+    font-size: 15px;
+}
+hr{
+    margin-top: 20px;
+}
+.mobile-menu{
+    background-color: #156963;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    display: none;
+}
